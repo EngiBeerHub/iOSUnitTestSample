@@ -10,6 +10,7 @@
 		5B6FCA490CC06103C3914A39 /* Pods_UnitTestSampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8926D4C3A6A074602DD5340B /* Pods_UnitTestSampleTests.framework */; };
 		77079B222C2FFF4C0088E801 /* GeneratedMocks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77079B212C2FFF4C0088E801 /* GeneratedMocks.swift */; };
 		77079B242C2FFFB00088E801 /* CalendarUtilTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77079B232C2FFFB00088E801 /* CalendarUtilTests.swift */; };
+		77079B262C30047F0088E801 /* TodoRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77079B252C30047F0088E801 /* TodoRepository.swift */; };
 		778530F62C2ED8DB009F9AC4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 778530F52C2ED8DB009F9AC4 /* AppDelegate.swift */; };
 		778530F82C2ED8DB009F9AC4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 778530F72C2ED8DB009F9AC4 /* SceneDelegate.swift */; };
 		778530FA2C2ED8DB009F9AC4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 778530F92C2ED8DB009F9AC4 /* ViewController.swift */; };
@@ -51,6 +52,7 @@
 		74DE1F21502C989539CCCD83 /* Pods_UnitTestSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UnitTestSample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		77079B212C2FFF4C0088E801 /* GeneratedMocks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeneratedMocks.swift; sourceTree = "<group>"; };
 		77079B232C2FFFB00088E801 /* CalendarUtilTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarUtilTests.swift; sourceTree = "<group>"; };
+		77079B252C30047F0088E801 /* TodoRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoRepository.swift; sourceTree = "<group>"; };
 		778530F22C2ED8DB009F9AC4 /* UnitTestSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UnitTestSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		778530F52C2ED8DB009F9AC4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		778530F72C2ED8DB009F9AC4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -148,6 +150,7 @@
 				778531032C2ED8DE009F9AC4 /* Info.plist */,
 				778531252C2EE636009F9AC4 /* Calculator.swift */,
 				7785312A2C2FECF3009F9AC4 /* DateProtocol.swift */,
+				77079B252C30047F0088E801 /* TodoRepository.swift */,
 			);
 			path = UnitTestSample;
 			sourceTree = "<group>";
@@ -384,6 +387,7 @@
 			);
 			inputPaths = (
 				"$(SRCROOT)/UnitTestSample/DateProtocol.swift",
+				"$(SRCROOT)/UnitTestSample/TodoRepository.swift",
 			);
 			outputFileListPaths = (
 			);
@@ -427,6 +431,7 @@
 				778530F62C2ED8DB009F9AC4 /* AppDelegate.swift in Sources */,
 				778530F82C2ED8DB009F9AC4 /* SceneDelegate.swift in Sources */,
 				7785312B2C2FECF3009F9AC4 /* DateProtocol.swift in Sources */,
+				77079B262C30047F0088E801 /* TodoRepository.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

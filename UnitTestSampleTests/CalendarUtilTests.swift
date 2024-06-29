@@ -53,4 +53,35 @@ class CalendarUtilTests: XCTestCase {
         XCTAssertFalse(CalendarUtil(dateProtocol: mock).isHoliday())
         XCTAssertTrue(CalendarUtil(dateProtocol: mock).isHoliday())
     }
+    
+    func testAdd() {
+        let mock = MockTodoRepository()
+        
+        stub(mock) { stub in
+            // スタブの設定
+            when(stub.add("hello")).thenDoNothing()
+        }
+        
+        // メソッドの呼び出し
+        mock.add("hello")
+        
+        // メソッドが呼ばれたことを検証
+        verify(mock).add("hello")
+    }
+    
+    func testAdd2() {
+        let mock = MockTodoRepository()
+        
+        stub(mock) { stub in
+            // 任意の文字列で呼び出された場合のスタブを設定
+            when(stub.add(anyString())).thenDoNothing()
+        }
+        
+        // 2回呼び出し
+        mock.add("hello")
+        mock.add("goodbye")
+        
+        // 任意の文字列で、ちょうど2回だけ呼び出されたことを検証
+        verify(mock, times(2)).add(anyString())
+    }
 }

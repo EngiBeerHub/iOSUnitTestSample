@@ -7,7 +7,25 @@
 		<key>UnitTestSample.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>3</integer>
+			<integer>4</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>778530F12C2ED8DB009F9AC4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>778531072C2ED8DE009F9AC4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>778531112C2ED8DE009F9AC4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>

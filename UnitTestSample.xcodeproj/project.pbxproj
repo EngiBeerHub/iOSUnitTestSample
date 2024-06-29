@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		5B6FCA490CC06103C3914A39 /* Pods_UnitTestSampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8926D4C3A6A074602DD5340B /* Pods_UnitTestSampleTests.framework */; };
+		77079B222C2FFF4C0088E801 /* GeneratedMocks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77079B212C2FFF4C0088E801 /* GeneratedMocks.swift */; };
+		77079B242C2FFFB00088E801 /* CalendarUtilTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77079B232C2FFFB00088E801 /* CalendarUtilTests.swift */; };
 		778530F62C2ED8DB009F9AC4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 778530F52C2ED8DB009F9AC4 /* AppDelegate.swift */; };
 		778530F82C2ED8DB009F9AC4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 778530F72C2ED8DB009F9AC4 /* SceneDelegate.swift */; };
 		778530FA2C2ED8DB009F9AC4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 778530F92C2ED8DB009F9AC4 /* ViewController.swift */; };
@@ -19,6 +21,7 @@
 		778531192C2ED8DE009F9AC4 /* UnitTestSampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 778531182C2ED8DE009F9AC4 /* UnitTestSampleUITestsLaunchTests.swift */; };
 		778531262C2EE636009F9AC4 /* Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 778531252C2EE636009F9AC4 /* Calculator.swift */; };
 		778531282C2EE6ED009F9AC4 /* CalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 778531272C2EE6ED009F9AC4 /* CalculatorTests.swift */; };
+		7785312B2C2FECF3009F9AC4 /* DateProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7785312A2C2FECF3009F9AC4 /* DateProtocol.swift */; };
 		AFF246EC6959283BCE2855E4 /* Pods_UnitTestSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74DE1F21502C989539CCCD83 /* Pods_UnitTestSample.framework */; };
 		B37F21802F1E6E4504A21D3A /* Pods_UnitTestSample_UnitTestSampleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF7BA1B3FC3333842D4671B7 /* Pods_UnitTestSample_UnitTestSampleUITests.framework */; };
 /* End PBXBuildFile section */
@@ -46,6 +49,8 @@
 		288D05C785DAF05CA8CA94F9 /* Pods-UnitTestSampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UnitTestSampleTests.debug.xcconfig"; path = "Target Support Files/Pods-UnitTestSampleTests/Pods-UnitTestSampleTests.debug.xcconfig"; sourceTree = "<group>"; };
 		6A36628CB23DF02B0A9694F0 /* Pods-UnitTestSample-UnitTestSampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UnitTestSample-UnitTestSampleUITests.release.xcconfig"; path = "Target Support Files/Pods-UnitTestSample-UnitTestSampleUITests/Pods-UnitTestSample-UnitTestSampleUITests.release.xcconfig"; sourceTree = "<group>"; };
 		74DE1F21502C989539CCCD83 /* Pods_UnitTestSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UnitTestSample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		77079B212C2FFF4C0088E801 /* GeneratedMocks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeneratedMocks.swift; sourceTree = "<group>"; };
+		77079B232C2FFFB00088E801 /* CalendarUtilTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarUtilTests.swift; sourceTree = "<group>"; };
 		778530F22C2ED8DB009F9AC4 /* UnitTestSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UnitTestSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		778530F52C2ED8DB009F9AC4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		778530F72C2ED8DB009F9AC4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -61,6 +66,7 @@
 		778531182C2ED8DE009F9AC4 /* UnitTestSampleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTestSampleUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		778531252C2EE636009F9AC4 /* Calculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculator.swift; sourceTree = "<group>"; };
 		778531272C2EE6ED009F9AC4 /* CalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorTests.swift; sourceTree = "<group>"; };
+		7785312A2C2FECF3009F9AC4 /* DateProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateProtocol.swift; sourceTree = "<group>"; };
 		80C673A8C55AA7477332BB21 /* Pods-UnitTestSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UnitTestSample.release.xcconfig"; path = "Target Support Files/Pods-UnitTestSample/Pods-UnitTestSample.release.xcconfig"; sourceTree = "<group>"; };
 		8926D4C3A6A074602DD5340B /* Pods_UnitTestSampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UnitTestSampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E26FA8C8C70B60BEFBE81D9C /* Pods-UnitTestSample-UnitTestSampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UnitTestSample-UnitTestSampleUITests.debug.xcconfig"; path = "Target Support Files/Pods-UnitTestSample-UnitTestSampleUITests/Pods-UnitTestSample-UnitTestSampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -105,7 +111,6 @@
 				288D05C785DAF05CA8CA94F9 /* Pods-UnitTestSampleTests.debug.xcconfig */,
 				16022E8E8B5D82EFE3A74125 /* Pods-UnitTestSampleTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -142,6 +147,7 @@
 				778531002C2ED8DE009F9AC4 /* LaunchScreen.storyboard */,
 				778531032C2ED8DE009F9AC4 /* Info.plist */,
 				778531252C2EE636009F9AC4 /* Calculator.swift */,
+				7785312A2C2FECF3009F9AC4 /* DateProtocol.swift */,
 			);
 			path = UnitTestSample;
 			sourceTree = "<group>";
@@ -151,6 +157,8 @@
 			children = (
 				7785310C2C2ED8DE009F9AC4 /* UnitTestSampleTests.swift */,
 				778531272C2EE6ED009F9AC4 /* CalculatorTests.swift */,
+				77079B232C2FFFB00088E801 /* CalendarUtilTests.swift */,
+				77079B212C2FFF4C0088E801 /* GeneratedMocks.swift */,
 			);
 			path = UnitTestSampleTests;
 			sourceTree = "<group>";
@@ -200,9 +208,11 @@
 			buildConfigurationList = 7785311F2C2ED8DE009F9AC4 /* Build configuration list for PBXNativeTarget "UnitTestSampleTests" */;
 			buildPhases = (
 				7C6765AE546F9ED2E99ADCBA /* [CP] Check Pods Manifest.lock */,
+				7785312C2C2FEE87009F9AC4 /* ShellScript */,
 				778531042C2ED8DE009F9AC4 /* Sources */,
 				778531052C2ED8DE009F9AC4 /* Frameworks */,
 				778531062C2ED8DE009F9AC4 /* Resources */,
+				538CF960869D9E3A889A5C8D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -348,6 +358,41 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		538CF960869D9E3A889A5C8D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UnitTestSampleTests/Pods-UnitTestSampleTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UnitTestSampleTests/Pods-UnitTestSampleTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-UnitTestSampleTests/Pods-UnitTestSampleTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7785312C2C2FEE87009F9AC4 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/UnitTestSample/DateProtocol.swift",
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nOUTPUT_FILE=\"$PROJECT_DIR/${PROJECT_NAME}Tests/GeneratedMocks.swift\"\n\n\"${PODS_ROOT}/Cuckoo/run\" generate --testable \"$PROJECT_NAME\" --output \"${OUTPUT_FILE}\"\n";
+		};
 		7C6765AE546F9ED2E99ADCBA /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -381,6 +426,7 @@
 				778531262C2EE636009F9AC4 /* Calculator.swift in Sources */,
 				778530F62C2ED8DB009F9AC4 /* AppDelegate.swift in Sources */,
 				778530F82C2ED8DB009F9AC4 /* SceneDelegate.swift in Sources */,
+				7785312B2C2FECF3009F9AC4 /* DateProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -389,6 +435,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				7785310D2C2ED8DE009F9AC4 /* UnitTestSampleTests.swift in Sources */,
+				77079B242C2FFFB00088E801 /* CalendarUtilTests.swift in Sources */,
+				77079B222C2FFF4C0088E801 /* GeneratedMocks.swift in Sources */,
 				778531282C2EE6ED009F9AC4 /* CalculatorTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -474,7 +522,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -537,7 +585,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;

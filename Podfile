@@ -10,6 +10,7 @@ target 'UnitTestSample' do
   target 'UnitTestSampleTests' do
     inherit! :search_paths
     # Pods for testing
+    pod 'Cuckoo', '1.10.4'
   end
 
   target 'UnitTestSampleUITests' do
